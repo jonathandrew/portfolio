@@ -26,7 +26,7 @@
 .main-body{
     height:100%;
     width:49%;
-    display: //;
+    display:flex;
     justify-content: space-around;
     align-items: center;
 
@@ -54,15 +54,26 @@
 }
 
 a{
-border:51px solid white
+border:51px solid skyblue
 }
 
-ul{
-    border:1px solid black;
+body{
+    background-color:skyblue;
+    color:blue;
+    font-size:15px;
+
+    }
+@media(max-width:1000px) and (min-width:601px){
+    body{
+        color:white;
+        font-size:20px;
+    }
 
 }
-
-li{
-
-    
+@media(max-width:600px){
+    body{
+        color:red;
+        font-size:20px;
+    }
 }
+
